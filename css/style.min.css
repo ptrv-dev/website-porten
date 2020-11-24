@@ -115,6 +115,16 @@ body.lock { overflow: hidden; }
 
 .section-goods .catalog { margin-top: 80px; }
 
+.our-brands { padding: 60px 0; background: #0F0F0F; }
+
+.our-brands__row { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.our-brands .section-title::after { margin-bottom: 40px; }
+
+.our-brands img { -webkit-transition: -webkit-transform .3s; transition: -webkit-transform .3s; -o-transition: transform .3s; transition: transform .3s; transition: transform .3s, -webkit-transform .3s; }
+
+.our-brands img:hover { -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1); }
+
 @media (max-width: 1024px) { .container { max-width: 768px; } }
 
 @media (max-width: 798px) { .container { width: 100%; padding: 0 15px; } }
