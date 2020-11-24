@@ -1,0 +1,66 @@
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: url("/img/main/main-bg.jpg") center center no-repeat;
+	background-size: cover;
+	padding: 150px 0;
+	// .main__content
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	// .main__box
+
+	&__box {
+		padding: 93px 67px;
+		border: 4px solid #ffffff;
+		display: inline-flex;
+		flex-direction: column;
+		margin-bottom: 80px;
+	}
+
+	// .main__box-title
+
+	&__box-title {
+		font-family: "Post No Bills Jaffna";
+		font-weight: bold;
+		font-size: 64px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+		&::after {
+			display: block;
+			content: "";
+			height: 2px;
+			width: 100%;
+			background: #ffffff;
+			margin-bottom: 7px;
+		}
+	}
+
+	// .main__box-subtitle
+
+	&__box-subtitle {
+		font-size: 22px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+
+	// .main__info
+
+	&__info {
+		max-width: 730px;
+		text-align: center;
+		font-size: 16px;
+		line-height: 150%;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+}

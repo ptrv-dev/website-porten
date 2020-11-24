@@ -60,6 +60,7 @@
 			justify-content: space-between;
 			li {
 				width: 100%;
+				min-height: 75px;
 			}
 		}
 		&-link {
@@ -96,5 +97,15 @@
 			font-size: 0;
 		}
 
+	}
+}
+@media (max-width: 1024px) {
+	.main__box {
+		padding: 50px;
+	}
+}
+@media (max-width: 425px) {
+	.main__box {
+		margin-bottom: 25px;
 	}
 }
