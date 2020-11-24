@@ -109,3 +109,23 @@
 		margin-bottom: 25px;
 	}
 }
+@media (max-width: 1024px) {
+	.section-double {
+		&__inner {
+			flex-direction: column;
+		}
+	}
+	.newseason {
+		width: 100%;
+	}
+	.newcollection {
+		width: 100%;
+	}
+}
+@media (max-width: 971px) {
+	.section-double {
+		.catalog {
+			justify-content: space-around;
+		}
+	}
+}

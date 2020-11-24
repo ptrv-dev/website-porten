@@ -1,0 +1,33 @@
+.section-double {
+	// .section-double__inner
+
+	&__inner {
+		display: flex;
+	}
+}
+.newseason {
+	display: inline-block;
+	width: 55%;
+	background: #000000;
+	padding: 90px 80px;
+	.section__title {
+		&::after {
+			margin: 50px auto;
+		}
+	}
+}
+.newcollection {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	width: 45%;
+	background: url("/img/new-collection/bg.jpg") center center no-repeat;
+	background-size: cover;
+	.section__title {
+		&::after {
+			margin: 30px auto;
+		}
+	}
+	padding: 100px 0;
+}

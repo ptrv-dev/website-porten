@@ -1,0 +1,72 @@
+.button {
+	font-size: 18px;
+	line-height: 23px;
+	color: #ffffff;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	padding: 12px 28px;
+	border: 1px solid #ffffff;
+	text-decoration: none;
+	transition: all .3s;
+	&:hover {
+		background: #fff;
+		color: #000;
+	}
+}
+
+.catalog {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	// .catalog__item
+
+	&__item {
+		margin: 0 5px;
+		margin-bottom: 25px;
+		text-decoration: none;
+	}
+
+	// .catalog__item-img
+
+	&__item-img {
+	}
+
+	// .catalog__item-title
+
+	&__item-title {
+		font-family: "Playfair Display";
+		font-size: 18px;
+		color: #ffffff;
+		margin: 25px 0 10px;
+	}
+
+	// .catalog__item-cost
+
+	&__item-cost {
+		font-family: "Playfair Display";
+		font-size: 16px;
+		font-weight: 700;
+		color: #d0d0d0;
+	}
+}
+
+.section {
+	// .section__title
+	&__title {
+		font-family: "Playfair Display";
+		font-weight: bold;
+		font-size: 36px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+		&::after {
+			display: block;
+			content: "";
+			width: 120px;
+			height: 1px;
+			background: #fff;
+			margin: 40px auto;
+		}
+	}
+}
