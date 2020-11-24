@@ -135,6 +135,16 @@
 			padding: 50px 25px;
 		}
 	}
+	.footer {
+		&__inner {
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		&__column {
+			width: 50%;
+			margin-bottom: 25px;
+		}
+	}
 }
 @media (max-width: 768px) {
 	.section-collection2018 {
@@ -145,5 +155,23 @@
 		&__info {
 			width: 100%;
 		}
+	}
+	.footer {
+		&__inner {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+		&__column {
+			width: 100%;
+		}
+	}
+}
+@media (max-width: 360px) {
+	.footer__form-input {
+		padding: 5px 10px;
+	}
+	.footer__form-button {
+		padding: 10px;
 	}
 }
