@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGKA,OAAO,CAAC,0FAAI;AACZ,OAAO,CAAC,oEAAI;ADNZ,AAAA,CAAC,EACD,CAAC,AAAA,OAAO,EACR,CAAC,AAAA,QAAQ,CAAC,EACT,UAAU,EAAE,UAAU,GACtB;;AAED,AAAA,IAAI,CAAC,EACJ,WAAW,EDNP,QAAQ,EAAE,UAAU,ECOxB,SAAS,EDNL,IAAI,GCOR;;AAED,AAAA,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,CAAC,EACjB,MAAM,EAAE,CAAC,EACT,WAAW,EDVD,QAAQ,EAAE,UAAU,GCW9B;;AAED,AAAA,CAAC,CAAC,EACD,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,GACV;;AAED,AAAA,UAAU,CAAC,EACV,SAAS,EDtBQ,MAAM,ECuBvB,MAAM,EAAE,MAAM,GACd;;ACxBD,UAAU,GACT,WAAW,EAAE,sBAAsB,EACnC,GAAG,EAAE,wCAAwC,CAAC,aAAa,EAC3D,WAAW,EAAE,GAAG;;AHCjB,gCAAgC",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/app/_vars.scss",
+        "../scss/app/_setting.scss",
+        "../scss/app/_fonts.scss",
+        "../scss/blocks/_header.scss",
+        "../scss/blocks/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}

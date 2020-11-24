@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $ff;
+	font-size: $fz;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	font-family: $ff-title;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: $container-width;
+	margin: 0 auto;
+}
