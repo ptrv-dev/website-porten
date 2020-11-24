@@ -1,0 +1,169 @@
+.header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 4;
+
+	// .header__top
+
+	&__top {
+		background: #000000;
+		height: 44px;
+		a {
+			text-decoration: none;
+		}
+	}
+
+	// .header__top-inner
+
+	&__top-inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+	}
+
+	// .header__top-info
+
+	&__top-info {
+		display: flex;
+		align-items: center;
+	}
+
+	// .header__phone
+
+	&__phone {
+		font-size: 12px;
+		color: #969696;
+		line-height: 16px;
+		i {
+			margin-right: 15px;
+		}
+		margin-right: 15px;
+	}
+
+	// .header__work-days
+
+	&__work-days {
+		font-size: 12px;
+		color: #969696;
+		line-height: 16px;
+		margin: 0 15px;
+	}
+
+	// .header__work-hours
+
+	&__work-hours {
+		font-size: 12px;
+		color: #969696;
+		line-height: 16px;
+		margin: 0 15px;
+	}
+
+	// .header__top-auth-link
+
+	&__top-auth-link {
+		color: #969696;
+		font-size: 12px;
+		i {
+			margin-right: 10px;
+		}
+	}
+
+	// .header__bottom
+
+	&__bottom {
+		background: #0F0F0F;
+		height: 80px;
+	}
+
+	// .header__bottom-inner
+
+	&__bottom-inner {
+		display: flex;
+		height: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	// .header__nav
+
+	&__logo {
+		font-size: 36px;
+		font-family: "Post No Bills Jaffna", sans-serif;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-weight: 700;
+		color: #FFFFFF;
+	}
+
+	// .header__menu
+
+	&__menu {
+		height: 100%;
+	}
+
+	// .header__menu-list
+
+	&__menu-list {
+		display: flex;
+		list-style: none;
+		height: 100%;
+		li {
+			height: 100%;
+		}
+		margin: 0;
+		padding: 0;
+	}
+
+	// .header__menu-link
+
+	&__menu-link {
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+		height: 100%;
+		display: inline-block;
+		display: flex;
+		align-items: center;
+		padding: 0 20px;
+		transition: all .3s ease-in-out;
+		position: relative;
+		&_active {
+			background: #1F1F1F;
+		}
+		&::after {
+			transition: all .4s ease;
+			position: absolute;
+			display: block;
+			content: '';
+			width: 0;
+			height: 3px;
+			background: #fff;
+			left: 0;
+			bottom: 0;
+		}
+		&:hover {
+			background: #1F1F1F;
+			&::after {
+				width: 100%;
+			}
+		}
+	}
+	&__menu-burger {
+		display: none;
+	}
+}
+.container {
+}
+.fas {
+}
+.fa-phone {
+}
+.fa-sign-in-alt {
+}
+.fa-shopping-cart {
+}
+.fa-search {
+}
