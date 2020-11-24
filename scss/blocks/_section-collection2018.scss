@@ -1,0 +1,28 @@
+.section-collection2018 {
+	display: flex;
+	// .section-collection2018__img
+
+	&__img {
+		width: 45%;
+		object-fit: cover;
+	}
+
+	// .section-collection2018__info
+
+	&__info {
+		width: 55%;
+		text-align: center;
+		background: #000;
+		padding: 100px;
+	}
+
+	// .section-collection2018__text
+
+	&__text {
+		line-height: 150%;
+		color: #ffffff;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		margin: 40px auto 60px;
+		max-width: 470px;
+	}
+}

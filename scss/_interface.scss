@@ -1,4 +1,5 @@
 .button {
+	display: inline-block;
 	font-size: 18px;
 	line-height: 23px;
 	color: #ffffff;
@@ -7,24 +8,29 @@
 	padding: 12px 28px;
 	border: 1px solid #ffffff;
 	text-decoration: none;
-	transition: all .3s;
+	transition: all 0.3s;
 	&:hover {
 		background: #fff;
 		color: #000;
 	}
+	box-sizing: border-box;
 }
 
 .catalog {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 	// .catalog__item
 
 	&__item {
 		margin: 0 5px;
-		margin-bottom: 25px;
+		margin-bottom: 40px;
 		text-decoration: none;
+		transition: transform 0.3s;
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 
 	// .catalog__item-img
@@ -51,22 +57,19 @@
 	}
 }
 
-.section {
-	// .section__title
-	&__title {
-		font-family: "Playfair Display";
-		font-weight: bold;
-		font-size: 36px;
-		text-align: center;
-		text-transform: uppercase;
-		color: #ffffff;
-		&::after {
-			display: block;
-			content: "";
-			width: 120px;
-			height: 1px;
-			background: #fff;
-			margin: 40px auto;
-		}
+.section-title {
+	font-family: "Playfair Display";
+	font-weight: bold;
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	&::after {
+		display: block;
+		content: "";
+		width: 120px;
+		height: 1px;
+		background: #fff;
+		margin: 40px auto;
 	}
 }

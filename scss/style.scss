@@ -1,14 +1,14 @@
-@import 'app/vars';
-@import 'app/setting';
-@import 'app/fonts';
+@import './app/vars';
+@import './app/setting';
+@import './app/fonts';
 
 /* -------------------------- */
-@import 'blocks/header';
+@import './blocks/header';
 
-@import 'interface';
-@import 'blocks/main';
-@import 'blocks/section-double';
+@import './interface';
+@import './blocks/main';
+@import './blocks/section-double';
+@import './blocks/section-collection2018';
+@import './blocks/footer';
 
-@import 'blocks/footer';
-
-@import 'media';
+@import './media';

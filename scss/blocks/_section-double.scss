@@ -10,7 +10,7 @@
 	width: 55%;
 	background: #000000;
 	padding: 90px 80px;
-	.section__title {
+	.section-title {
 		&::after {
 			margin: 50px auto;
 		}
@@ -24,7 +24,7 @@
 	width: 45%;
 	background: url("/img/new-collection/bg.jpg") center center no-repeat;
 	background-size: cover;
-	.section__title {
+	.section-title {
 		&::after {
 			margin: 30px auto;
 		}
